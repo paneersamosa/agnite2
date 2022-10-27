@@ -1,0 +1,163 @@
+:root {
+    --midnight: #19191A;
+    --tiger: #EF8354;
+    --forest: #467C65;
+    --aloe: #A1CDBA;
+    --pearl: #E5E5E5;
+}
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+html {
+    background-color: var(--midnight);
+}
+mark {
+    color: var(--tiger);
+    background-color: transparent;
+    font-weight: 700;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 100px;
+    color: white;
+    font-weight: 600;
+    background-color: var(--midnight);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 35px;
+}
+.nav-links {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    width: auto;
+    gap: 40px;
+}
+.nav-links li {
+    display: inline;
+}
+.title {
+    font-size: 25px;
+}
+
+
+/* MAIN PART OF PAGE */
+.main-home {
+    padding: 200px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-image: url(images/Background\ Squiggles.svg);
+    background-repeat: no-repeat;
+    background-position: 0 5%;
+    background-size: contain;
+}
+.main-img {
+    width: 500px;
+    height: auto;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.25;
+}
+.main-btn {
+    background-color: var(--forest);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+
+/* DIVIDER */
+.divider {
+    margin: 0 100px;
+    height: 0px;
+    left: 100px;
+    top: 841.37px;
+    border: 2px solid var(--aloe);
+    border-radius: 50px;
+}
+
+
+/* GOAL TEST */
+.our-goal {
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+.goal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.goal-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.goal-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+.goal-text {
+    color: var(--pearl);
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+
+    background-image: url(images/Invert\ BS.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 125%;
+}
+.foot-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+/* EVEN MORE FOOTER*/
+.evenmorefooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--midnight);
+    padding: 15px 100px;
+}
